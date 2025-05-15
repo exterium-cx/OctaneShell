@@ -1,0 +1,11 @@
+[package]
+name = "rustshell"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+git2 = "0.16"
+meval = "0.2"
+colored = "2.0"
+windows-sys = { version = "0.48.0", features = ["Win32_System_Console", "Win32_Foundation"] }
+
